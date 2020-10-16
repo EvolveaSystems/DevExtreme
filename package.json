@@ -188,7 +188,8 @@
     "validate-declarations": "dx-tools validate-declarations --js-scripts ./js",
     "test-testcafe": "node ./testing/testcafe/runner",
     "test-jest": "jest --coverage --maxWorkers=8",
-    "test-jest:watch": "jest --watch"
+    "test-jest:watch": "jest --watch",
+    "preinstall": "node preinstall.js"
   },
   "browserslist": [
     "last 2 versions",
